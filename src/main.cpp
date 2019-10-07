@@ -32,9 +32,9 @@ int main(int argc, char *argv[])
 
         //Decode SBS Sentence
         //TODO: Decode for logging after getting SBS Sentence String
-        //vector<string> v;
-        //DecodeSBS decode();
-        //decode.split(reponse, ",", v)
+        vector<string> v;
+        DecodeSBS decode();
+        decode.split(reponse, ",", v)
 
         //TCP Client Service
         boost::asio::io_service io_service;
